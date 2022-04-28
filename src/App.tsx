@@ -10,36 +10,39 @@ import { sections, title } from './constants/HeaderConstants'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import Demar from './resources/Demar_Long_Blank.png';
+import SadJokic from './resources/Sad_Jokic.png';
+import NicClaxton from './resources/Nic_Claxton.png';
 import post1 from './posts/blog-post.1.md';
 import post2 from './posts/blog-post.2.md';
 import post3 from './posts/blog-post.3.md';
 
 
 const mainFeaturedPost = {
-  title: 'Title of a longer featured blog post',
+  title: 'Demar DeMVP Fed Up',
   description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
-  image: 'https://source.unsplash.com/random',
-  imageText: 'main image description',
+    "Bulls star is beside himself after series loss to the Bucks. He is begging the team to play better next year, but for now, he is off to Cancun.",
+  image: Demar,
+  imageText: 'Demar DeRozan',
   linkText: 'Continue reading…',
 };
 
 const featuredPosts = [
   {
-    title: 'Featured post',
-    date: 'Nov 12',
+    title: 'Jokic Bewildered',
+    date: 'April 22',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
-    imageLabel: 'Image Text',
+      '"I am very thankful none of my teammates speak Serbian, then those bums would know how untalented I think they are."',
+    image: SadJokic,
+    imageLabel: 'Sad Jokic',
   },
   {
-    title: 'Post title',
-    date: 'Nov 11',
+    title: 'Nic Claxton Breaks Long Standing Record',
+    date: 'April 24',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
-    imageLabel: 'Image Text',
+      '"I do not take anything for free. I grind for everything I have."',
+    image: NicClaxton,
+    imageLabel: 'Nic Claxton',
   },
 ];
 
@@ -96,8 +99,8 @@ function App() {
         </main>
       </Container>
       <Footer
-        title="PBS"
-        description="Sports news by the people, for the people"
+        title="Power Bottom Sports"
+        description="Sports news by the people, for the people."
       />
     </ThemeProvider>
   );
