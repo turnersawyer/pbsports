@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/pbsports/static/css/main.e6c13ad2.css",
+    "main.js": "/pbsports/static/js/main.3e80a035.js",
+    "static/js/787.b3929cb2.chunk.js": "/pbsports/static/js/787.b3929cb2.chunk.js",
+    "static/media/blog-post.1.md": "/pbsports/static/media/blog-post.1.353c521e6551afd17057.md",
+    "static/media/blog-post.2.md": "/pbsports/static/media/blog-post.2.b27a7ed09310c3b3942e.md",
+    "static/media/blog-post.3.md": "/pbsports/static/media/blog-post.3.0068a2edf4e02dfd12e2.md",
+    "index.html": "/pbsports/index.html",
+    "main.e6c13ad2.css.map": "/pbsports/static/css/main.e6c13ad2.css.map",
+    "main.3e80a035.js.map": "/pbsports/static/js/main.3e80a035.js.map",
+    "787.b3929cb2.chunk.js.map": "/pbsports/static/js/787.b3929cb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3e80a035.js"
+  ]
+}
